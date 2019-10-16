@@ -7,10 +7,9 @@ import { Icon } from 'react-native-elements';
 // import screens here
 import Screen1 from '../screens/Screen1';
 import Screen2 from '../screens/Screen2';
-import Screen3 from '../screens/Screen3';
-import Screen4 from '../screens/Screen4';
 import Screen12 from '../screens/Screen12';
 import Screen22 from '../screens/Screen22';
+import Screen22 from '../screens/Screen3';
 
 // import components here
 
@@ -40,8 +39,8 @@ if (!navigation.navigation.openDrawer()) {
         <Icon 
           name="bars" 
           type="font-awesome" 
-          size={25} 
-          //color={'#666699'}
+          size={29} 
+          color={'#666699'}
           margin={15} 
         />
         </TouchableOpacity>
